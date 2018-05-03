@@ -1,0 +1,1275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2552115C-90D4-4C14-8E3E-04F0006B6416}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GloriaINE</RootNamespace>
+    <AssemblyName>GloriaINE</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="HIMNO_10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_10.Designer.cs">
+      <DependentUpon>HIMNO_10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_100.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_100.Designer.cs">
+      <DependentUpon>HIMNO_100.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_101.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_101.Designer.cs">
+      <DependentUpon>HIMNO_101.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_102.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_102.Designer.cs">
+      <DependentUpon>HIMNO_102.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_104.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_104.Designer.cs">
+      <DependentUpon>HIMNO_104.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_105.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_105.Designer.cs">
+      <DependentUpon>HIMNO_105.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_106.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_106.Designer.cs">
+      <DependentUpon>HIMNO_106.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_107.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_107.Designer.cs">
+      <DependentUpon>HIMNO_107.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_108.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_108.Designer.cs">
+      <DependentUpon>HIMNO_108.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_11.Designer.cs">
+      <DependentUpon>HIMNO_11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_110.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_110.Designer.cs">
+      <DependentUpon>HIMNO_110.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_111.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_111.Designer.cs">
+      <DependentUpon>HIMNO_111.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_112.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_112.Designer.cs">
+      <DependentUpon>HIMNO_112.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_113.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_113.Designer.cs">
+      <DependentUpon>HIMNO_113.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_115.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_115.Designer.cs">
+      <DependentUpon>HIMNO_115.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_116.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_116.Designer.cs">
+      <DependentUpon>HIMNO_116.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_117.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_117.Designer.cs">
+      <DependentUpon>HIMNO_117.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_118.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_118.Designer.cs">
+      <DependentUpon>HIMNO_118.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_119.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_119.Designer.cs">
+      <DependentUpon>HIMNO_119.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_12.Designer.cs">
+      <DependentUpon>HIMNO_12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_120.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_120.Designer.cs">
+      <DependentUpon>HIMNO_120.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_121.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_121.Designer.cs">
+      <DependentUpon>HIMNO_121.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_122.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_122.Designer.cs">
+      <DependentUpon>HIMNO_122.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_123.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_123.Designer.cs">
+      <DependentUpon>HIMNO_123.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_124.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_124.Designer.cs">
+      <DependentUpon>HIMNO_124.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_125.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_125.Designer.cs">
+      <DependentUpon>HIMNO_125.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_126.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_126.Designer.cs">
+      <DependentUpon>HIMNO_126.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_127.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_127.Designer.cs">
+      <DependentUpon>HIMNO_127.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_128.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_128.Designer.cs">
+      <DependentUpon>HIMNO_128.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_129.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_129.Designer.cs">
+      <DependentUpon>HIMNO_129.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_13.Designer.cs">
+      <DependentUpon>HIMNO_13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_130.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_130.Designer.cs">
+      <DependentUpon>HIMNO_130.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_131.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_131.Designer.cs">
+      <DependentUpon>HIMNO_131.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_132.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_132.Designer.cs">
+      <DependentUpon>HIMNO_132.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_133.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_133.Designer.cs">
+      <DependentUpon>HIMNO_133.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_134.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_134.Designer.cs">
+      <DependentUpon>HIMNO_134.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_135.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_135.Designer.cs">
+      <DependentUpon>HIMNO_135.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_136.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_136.Designer.cs">
+      <DependentUpon>HIMNO_136.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_137.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_137.Designer.cs">
+      <DependentUpon>HIMNO_137.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_138.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_138.Designer.cs">
+      <DependentUpon>HIMNO_138.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_139.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_139.Designer.cs">
+      <DependentUpon>HIMNO_139.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_140.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_140.Designer.cs">
+      <DependentUpon>HIMNO_140.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_142.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_142.Designer.cs">
+      <DependentUpon>HIMNO_142.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_143.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_143.Designer.cs">
+      <DependentUpon>HIMNO_143.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_144.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_144.Designer.cs">
+      <DependentUpon>HIMNO_144.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_145.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_145.Designer.cs">
+      <DependentUpon>HIMNO_145.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_146.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_146.Designer.cs">
+      <DependentUpon>HIMNO_146.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_147.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_147.Designer.cs">
+      <DependentUpon>HIMNO_147.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_149.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_149.Designer.cs">
+      <DependentUpon>HIMNO_149.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_150.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_150.Designer.cs">
+      <DependentUpon>HIMNO_150.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_21.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_21.Designer.cs">
+      <DependentUpon>HIMNO_21.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_15.Designer.cs">
+      <DependentUpon>HIMNO_15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_16.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_16.Designer.cs">
+      <DependentUpon>HIMNO_16.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_17.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_17.Designer.cs">
+      <DependentUpon>HIMNO_17.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_18.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_18.Designer.cs">
+      <DependentUpon>HIMNO_18.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_19.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_19.Designer.cs">
+      <DependentUpon>HIMNO_19.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_2.Designer.cs">
+      <DependentUpon>HIMNO_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_20.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_20.Designer.cs">
+      <DependentUpon>HIMNO_20.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_22.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_22.Designer.cs">
+      <DependentUpon>HIMNO_22.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_23.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_23.Designer.cs">
+      <DependentUpon>HIMNO_23.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_24.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_24.Designer.cs">
+      <DependentUpon>HIMNO_24.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_25.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_25.Designer.cs">
+      <DependentUpon>HIMNO_25.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_26.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_26.Designer.cs">
+      <DependentUpon>HIMNO_26.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_27.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_27.Designer.cs">
+      <DependentUpon>HIMNO_27.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_28.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_28.Designer.cs">
+      <DependentUpon>HIMNO_28.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_3.cs">
+      <SubType>Form</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="HIMNO_3.Designer.cs">
+      <DependentUpon>HIMNO_3.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="HIMNO_31.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_31.Designer.cs">
+      <DependentUpon>HIMNO_31.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_32.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_32.Designer.cs">
+      <DependentUpon>HIMNO_32.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_33.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_33.Designer.cs">
+      <DependentUpon>HIMNO_33.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_34.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_34.Designer.cs">
+      <DependentUpon>HIMNO_34.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_35.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_35.Designer.cs">
+      <DependentUpon>HIMNO_35.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_36.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_36.Designer.cs">
+      <DependentUpon>HIMNO_36.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_37.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_37.Designer.cs">
+      <DependentUpon>HIMNO_37.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_38.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_38.Designer.cs">
+      <DependentUpon>HIMNO_38.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_39.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_39.Designer.cs">
+      <DependentUpon>HIMNO_39.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_4.Designer.cs">
+      <DependentUpon>HIMNO_4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_40.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_40.Designer.cs">
+      <DependentUpon>HIMNO_40.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_42.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_42.Designer.cs">
+      <DependentUpon>HIMNO_42.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_43.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_43.Designer.cs">
+      <DependentUpon>HIMNO_43.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_44.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_44.Designer.cs">
+      <DependentUpon>HIMNO_44.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_45.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_45.Designer.cs">
+      <DependentUpon>HIMNO_45.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_46.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_46.Designer.cs">
+      <DependentUpon>HIMNO_46.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_47.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_47.Designer.cs">
+      <DependentUpon>HIMNO_47.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_49.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_49.Designer.cs">
+      <DependentUpon>HIMNO_49.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_5.Designer.cs">
+      <DependentUpon>HIMNO_5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_50.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_50.Designer.cs">
+      <DependentUpon>HIMNO_50.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_51.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_51.Designer.cs">
+      <DependentUpon>HIMNO_51.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_52.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_52.Designer.cs">
+      <DependentUpon>HIMNO_52.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_53.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_53.Designer.cs">
+      <DependentUpon>HIMNO_53.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_54.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_54.Designer.cs">
+      <DependentUpon>HIMNO_54.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_55.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_55.Designer.cs">
+      <DependentUpon>HIMNO_55.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_56.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_56.Designer.cs">
+      <DependentUpon>HIMNO_56.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_58.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_58.Designer.cs">
+      <DependentUpon>HIMNO_58.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_59.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_59.Designer.cs">
+      <DependentUpon>HIMNO_59.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_60.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_60.Designer.cs">
+      <DependentUpon>HIMNO_60.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_61.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_61.Designer.cs">
+      <DependentUpon>HIMNO_61.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_62.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_62.Designer.cs">
+      <DependentUpon>HIMNO_62.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_63.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_63.Designer.cs">
+      <DependentUpon>HIMNO_63.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_64.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_64.Designer.cs">
+      <DependentUpon>HIMNO_64.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_65.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_65.Designer.cs">
+      <DependentUpon>HIMNO_65.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_67.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_67.Designer.cs">
+      <DependentUpon>HIMNO_67.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_68.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_68.Designer.cs">
+      <DependentUpon>HIMNO_68.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_69.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_69.Designer.cs">
+      <DependentUpon>HIMNO_69.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_7.Designer.cs">
+      <DependentUpon>HIMNO_7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_71.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_71.Designer.cs">
+      <DependentUpon>HIMNO_71.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_72.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_72.Designer.cs">
+      <DependentUpon>HIMNO_72.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_73.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_73.Designer.cs">
+      <DependentUpon>HIMNO_73.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_75.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_75.Designer.cs">
+      <DependentUpon>HIMNO_75.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_76.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_76.Designer.cs">
+      <DependentUpon>HIMNO_76.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_78.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_78.Designer.cs">
+      <DependentUpon>HIMNO_78.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_79.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_79.Designer.cs">
+      <DependentUpon>HIMNO_79.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_8.Designer.cs">
+      <DependentUpon>HIMNO_8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_80.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_80.Designer.cs">
+      <DependentUpon>HIMNO_80.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_81.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_81.Designer.cs">
+      <DependentUpon>HIMNO_81.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_83.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_83.Designer.cs">
+      <DependentUpon>HIMNO_83.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_84.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_84.Designer.cs">
+      <DependentUpon>HIMNO_84.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_85.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_85.Designer.cs">
+      <DependentUpon>HIMNO_85.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_86.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_86.Designer.cs">
+      <DependentUpon>HIMNO_86.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_88.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_88.Designer.cs">
+      <DependentUpon>HIMNO_88.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_89.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_89.Designer.cs">
+      <DependentUpon>HIMNO_89.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_9.Designer.cs">
+      <DependentUpon>HIMNO_9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_90.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_90.Designer.cs">
+      <DependentUpon>HIMNO_90.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_91.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_91.Designer.cs">
+      <DependentUpon>HIMNO_91.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_92.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_92.Designer.cs">
+      <DependentUpon>HIMNO_92.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_93.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_93.Designer.cs">
+      <DependentUpon>HIMNO_93.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_94.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_94.Designer.cs">
+      <DependentUpon>HIMNO_94.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_95.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_95.Designer.cs">
+      <DependentUpon>HIMNO_95.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_96.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_96.Designer.cs">
+      <DependentUpon>HIMNO_96.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_98.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_98.Designer.cs">
+      <DependentUpon>HIMNO_98.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIMNO_99.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIMNO_99.Designer.cs">
+      <DependentUpon>HIMNO_99.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MENSAJE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MENSAJE.Designer.cs">
+      <DependentUpon>MENSAJE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mensaje2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mensaje2.Designer.cs">
+      <DependentUpon>Mensaje2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal.Designer.cs">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="HIMNO_10.resx">
+      <DependentUpon>HIMNO_10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_100.resx">
+      <DependentUpon>HIMNO_100.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_101.resx">
+      <DependentUpon>HIMNO_101.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_102.resx">
+      <DependentUpon>HIMNO_102.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_104.resx">
+      <DependentUpon>HIMNO_104.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_105.resx">
+      <DependentUpon>HIMNO_105.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_106.resx">
+      <DependentUpon>HIMNO_106.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_107.resx">
+      <DependentUpon>HIMNO_107.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_108.resx">
+      <DependentUpon>HIMNO_108.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_11.resx">
+      <DependentUpon>HIMNO_11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_110.resx">
+      <DependentUpon>HIMNO_110.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_111.resx">
+      <DependentUpon>HIMNO_111.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_112.resx">
+      <DependentUpon>HIMNO_112.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_113.resx">
+      <DependentUpon>HIMNO_113.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_115.resx">
+      <DependentUpon>HIMNO_115.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_116.resx">
+      <DependentUpon>HIMNO_116.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_117.resx">
+      <DependentUpon>HIMNO_117.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_118.resx">
+      <DependentUpon>HIMNO_118.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_119.resx">
+      <DependentUpon>HIMNO_119.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_12.resx">
+      <DependentUpon>HIMNO_12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_120.resx">
+      <DependentUpon>HIMNO_120.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_121.resx">
+      <DependentUpon>HIMNO_121.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_122.resx">
+      <DependentUpon>HIMNO_122.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_123.resx">
+      <DependentUpon>HIMNO_123.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_124.resx">
+      <DependentUpon>HIMNO_124.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_125.resx">
+      <DependentUpon>HIMNO_125.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_13.resx">
+      <DependentUpon>HIMNO_13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_21.resx">
+      <DependentUpon>HIMNO_21.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_15.resx">
+      <DependentUpon>HIMNO_15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_16.resx">
+      <DependentUpon>HIMNO_16.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_17.resx">
+      <DependentUpon>HIMNO_17.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_18.resx">
+      <DependentUpon>HIMNO_18.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_19.resx">
+      <DependentUpon>HIMNO_19.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_2.resx">
+      <DependentUpon>HIMNO_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_20.resx">
+      <DependentUpon>HIMNO_20.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_22.resx">
+      <DependentUpon>HIMNO_22.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_23.resx">
+      <DependentUpon>HIMNO_23.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_24.resx">
+      <DependentUpon>HIMNO_24.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_25.resx">
+      <DependentUpon>HIMNO_25.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_26.resx">
+      <DependentUpon>HIMNO_26.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_27.resx">
+      <DependentUpon>HIMNO_27.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_28.resx">
+      <DependentUpon>HIMNO_28.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_3.resx">
+      <DependentUpon>HIMNO_3.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_31.resx">
+      <DependentUpon>HIMNO_31.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_32.resx">
+      <DependentUpon>HIMNO_32.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_33.resx">
+      <DependentUpon>HIMNO_33.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_34.resx">
+      <DependentUpon>HIMNO_34.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_35.resx">
+      <DependentUpon>HIMNO_35.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_36.resx">
+      <DependentUpon>HIMNO_36.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_37.resx">
+      <DependentUpon>HIMNO_37.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_38.resx">
+      <DependentUpon>HIMNO_38.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_39.resx">
+      <DependentUpon>HIMNO_39.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_4.resx">
+      <DependentUpon>HIMNO_4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_40.resx">
+      <DependentUpon>HIMNO_40.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_42.resx">
+      <DependentUpon>HIMNO_42.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_43.resx">
+      <DependentUpon>HIMNO_43.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_44.resx">
+      <DependentUpon>HIMNO_44.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_45.resx">
+      <DependentUpon>HIMNO_45.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_46.resx">
+      <DependentUpon>HIMNO_46.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_47.resx">
+      <DependentUpon>HIMNO_47.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_49.resx">
+      <DependentUpon>HIMNO_49.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_5.resx">
+      <DependentUpon>HIMNO_5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_50.resx">
+      <DependentUpon>HIMNO_50.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_51.resx">
+      <DependentUpon>HIMNO_51.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_52.resx">
+      <DependentUpon>HIMNO_52.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_53.resx">
+      <DependentUpon>HIMNO_53.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_54.resx">
+      <DependentUpon>HIMNO_54.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_55.resx">
+      <DependentUpon>HIMNO_55.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_56.resx">
+      <DependentUpon>HIMNO_56.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_58.resx">
+      <DependentUpon>HIMNO_58.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_59.resx">
+      <DependentUpon>HIMNO_59.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_60.resx">
+      <DependentUpon>HIMNO_60.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_61.resx">
+      <DependentUpon>HIMNO_61.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_62.resx">
+      <DependentUpon>HIMNO_62.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_63.resx">
+      <DependentUpon>HIMNO_63.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_64.resx">
+      <DependentUpon>HIMNO_64.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_65.resx">
+      <DependentUpon>HIMNO_65.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_67.resx">
+      <DependentUpon>HIMNO_67.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_68.resx">
+      <DependentUpon>HIMNO_68.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_69.resx">
+      <DependentUpon>HIMNO_69.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_7.resx">
+      <DependentUpon>HIMNO_7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_71.resx">
+      <DependentUpon>HIMNO_71.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_72.resx">
+      <DependentUpon>HIMNO_72.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_73.resx">
+      <DependentUpon>HIMNO_73.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_75.resx">
+      <DependentUpon>HIMNO_75.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_76.resx">
+      <DependentUpon>HIMNO_76.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_78.resx">
+      <DependentUpon>HIMNO_78.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_79.resx">
+      <DependentUpon>HIMNO_79.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_8.resx">
+      <DependentUpon>HIMNO_8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_80.resx">
+      <DependentUpon>HIMNO_80.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_81.resx">
+      <DependentUpon>HIMNO_81.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_83.resx">
+      <DependentUpon>HIMNO_83.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_84.resx">
+      <DependentUpon>HIMNO_84.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_85.resx">
+      <DependentUpon>HIMNO_85.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_86.resx">
+      <DependentUpon>HIMNO_86.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_88.resx">
+      <DependentUpon>HIMNO_88.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_89.resx">
+      <DependentUpon>HIMNO_89.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_9.resx">
+      <DependentUpon>HIMNO_9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_90.resx">
+      <DependentUpon>HIMNO_90.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_91.resx">
+      <DependentUpon>HIMNO_91.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_92.resx">
+      <DependentUpon>HIMNO_92.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_93.resx">
+      <DependentUpon>HIMNO_93.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_94.resx">
+      <DependentUpon>HIMNO_94.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_95.resx">
+      <DependentUpon>HIMNO_95.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_96.resx">
+      <DependentUpon>HIMNO_96.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_98.resx">
+      <DependentUpon>HIMNO_98.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIMNO_99.resx">
+      <DependentUpon>HIMNO_99.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MENSAJE.resx">
+      <DependentUpon>MENSAJE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mensaje2.resx">
+      <DependentUpon>Mensaje2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal.resx">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\网站标题或旗帜集.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo i.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\+.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\-.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buscra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buscra1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete-icon_p.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\011.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete-icon_p1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo i.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
