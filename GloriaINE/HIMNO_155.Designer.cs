@@ -1,6 +1,6 @@
 ﻿namespace GloriaINE
 {
-    partial class HIMNO_113
+    partial class HIMNO_155
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HIMNO_113));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HIMNO_155));
             this.axWindowsMediaPlayer1 = new AxWMPLib.AxWindowsMediaPlayer();
             ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).BeginInit();
             this.SuspendLayout();
@@ -40,19 +40,17 @@
             this.axWindowsMediaPlayer1.Name = "axWindowsMediaPlayer1";
             this.axWindowsMediaPlayer1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axWindowsMediaPlayer1.OcxState")));
             this.axWindowsMediaPlayer1.Size = new System.Drawing.Size(75, 23);
-            this.axWindowsMediaPlayer1.TabIndex = 2;
+            this.axWindowsMediaPlayer1.TabIndex = 1;
             // 
-            // HIMNO_113
+            // HIMNO_155
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
             this.Controls.Add(this.axWindowsMediaPlayer1);
-            this.MaximizeBox = false;
-            this.MinimizeBox = false;
-            this.Name = "HIMNO_113";
-            this.Text = "HIMNO_113";
-            this.Load += new System.EventHandler(this.HIMNO_113_Load);
+            this.Name = "HIMNO_155";
+            this.Text = "HIMNO_155";
+            this.Load += new System.EventHandler(this.HIMNO_155_Load);
             ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).EndInit();
             this.ResumeLayout(false);
 

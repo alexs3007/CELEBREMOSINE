@@ -28,6 +28,8 @@ namespace GloriaINE
             int value = 100;
             axWindowsMediaPlayer1.settings.volume = value;
             axWindowsMediaPlayer1.Size = new Size(535, 285);
+            this.Icon = GloriaINE.Properties.Resources.icono;
+          
         }
     }
 }

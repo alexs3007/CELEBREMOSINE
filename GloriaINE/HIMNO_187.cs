@@ -10,19 +10,21 @@ using System.Windows.Forms;
 
 namespace GloriaINE
 {
-    public partial class HIMNO_113 : Form
+    public partial class HIMNO_187 : Form
     {
-        public HIMNO_113()
+        public HIMNO_187()
         {
             InitializeComponent();
         }
 
-        private void HIMNO_113_Load(object sender, EventArgs e)
+        private void HIMNO_187_Load(object sender, EventArgs e)
         {
             int value = 100;
             axWindowsMediaPlayer1.settings.volume = value;
             axWindowsMediaPlayer1.Size = new Size(535, 285);
             axWindowsMediaPlayer1.Location = new Point(0, 0);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Icon = GloriaINE.Properties.Resources.icono;
         }
     }
